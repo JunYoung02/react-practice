@@ -1,0 +1,16 @@
+.menu-grid{
+    margin-top:30px;
+    margin-left:165px;
+    gap:20px 0px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menu-grid p{
+    margin:0px;
+}
+
+.menu-grid .food-name{
+    font-size:20px;
+    font-weight: 900;
+}

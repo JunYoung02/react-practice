@@ -1,0 +1,77 @@
+.review{
+    position:relative;
+}
+
+div .menu-info{
+    display:Flex;
+    flex-direction:column;
+}
+
+.menu-info img{
+    width:550px;
+    height:440px;
+    margin:50px 100px;
+}
+
+.menu-info .food-name{
+    margin-left:330px;
+    font-weight: 900;
+    font-size:20px;
+}
+
+.menu-info button{
+    width:200px;
+    background-color: #05C3FF;
+    border:none;
+    border-radius:20px;
+    font-size:16px;
+    font-weight: 800;
+    margin-left:260px;
+    margin-top:20px;
+    height: 35px;
+}
+
+.write-review{
+    position: absolute;
+    bottom:-177px;
+    background-color:#ECEBEB;
+    width: 710px;
+    height: 80px;
+    margin-left:0px;
+}
+
+.write-review input{
+    margin-top:10px;
+    margin-left: 70px;  
+    padding:20px;
+    width: 500px;
+    font-size:16px;
+}
+
+.write-review button{
+    font-size:16px;
+    font-weight: 700;
+    border:none;
+    background-color: #FFF6A6;
+    padding:10px;
+    margin-left:20px;
+}
+
+
+.review ul{
+    list-style:none;
+    position:absolute;
+    left:730px;
+    top:50px;
+    margin-top:0px;
+}
+
+.review ul li{
+    background-color: #ECEBEB;
+    width: 800px;
+    margin-bottom:15px;
+    font-size:20px;
+    padding:20px;
+    font-size:20px;
+    font-weight: 500;
+}
